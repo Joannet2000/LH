@@ -6,7 +6,7 @@
 
 #header {
   height: 100vh;
-  background-image: url(grass/grass.jpg);
+  background-image: url(docs/grass.jpg);
   background-position: center;
   background-size: cover;
 }
