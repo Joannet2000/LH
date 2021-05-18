@@ -4,9 +4,7 @@
   font-family: serif;
 }
 body {
-  background-image: url(back1.jpg);
-  background-position: bottom;
-  background-size: cover;
+  background-color: rgb(61, 3, 14);
 }
 #header {
   height: 100vh;
