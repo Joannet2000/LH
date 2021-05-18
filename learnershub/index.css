@@ -3,7 +3,11 @@
   padding: 0%;
   font-family: serif;
 }
-
+body {
+  background-image: url(back1.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
 #header {
   height: 100vh;
   background-image: url(back.jpg);
@@ -40,7 +44,7 @@ p {
 .image {
   position: relative;
   top: -395px;
-  border: none;
+  border: 0vh;
 }
 .square {
   height: 12px;
