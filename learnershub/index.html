@@ -5,7 +5,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="index.css"> 
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">  
-    </head>
+            <script src="https://kit.fontawesome.com/01cd92a1f8.js" crossorigin="anonymous"></script>
+        </head>
     <body>
     
         <section id="header">
@@ -112,25 +113,25 @@
 </div>  
 
 <div class="payment" style="margin-top: 600px; text-align: center;"  >
-<h7 style="color: WHITE;" id="payment">Payment</h7>
+<h7 style="color: yellow; margin-right: 20px; font-weight: bold; font-size: 40px;font-family: 'Times New Roman'; " id="payment">PAYMENT</h7>
 <br>
 <a href="#payment"></a>
 <form method="POST">
-    <h8>Account</h8>
+    <h8 >Account</h8>
     <div class="inputgroup">
         <div class="inputbox">
             <input type="text" placeholder="Full Name required" class="name">
-            <i class="fa fa-user icon"></i>
+            <i class="fa fa-user-o" aria-hidden="true"></i>
         </div>
         <div class="inputbox">
             <input type="text" placeholder="Nick Name required" class="name">
-            <i class="fa fa-user icon"></i>
+            <i class="fa fa-user-o" aria-hidden="true"></i>
         </div>
     </div>
     <div class="inputgroup">
         <div class="inputbox">
             <input type="text" placeholder="Email Address" class="name">
-            <i class="fa fa-envelope"></i>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
         </div>
     </div>
     <div class="inputgroup">
@@ -140,23 +141,57 @@
             <input type="text" placeholder="YYYY" class="dob">
         </div>
         <div class="inputbox">
-            <h9>Gender</h9>
+            <h9 style="color:white">Gender</h9>
             <input type="radio" id="b1" name="gender" checked class="radio">
-            <label for="b1">Male</label>
+            <label style="color: white;" for="b1">Male</label>
             <input type="radio" id="b2" name="gender" checked class="radio">
-            <label for="b2">Female</label>
-            <i class="fa fa-user icon"></i>
+            <label style="color: white;"  for="b2">Female</label>
+            <i class="fa fa-user-o" aria-hidden="true"></i>
         </div>
         <div class="inputgroup">
             <div class="inputbox">
-                <h10>Payment Details</h10>
+                <h10 style="color:white">Payment Details</h10>
                 <input type="radio" id="bc1" name="pay" checked class="radio">
-            <label for="bc1"><span><i class="fa fa-visa"></i>Credit Card</span></label>
+            <label style="color: white;" for="bc1"><span><i class="fa fa-cc-visa" aria-hidden="true"></i>Credit Card</span></label>
             <input type="radio" id="bc2" name="pay" checked class="radio">
-            <label for="bc2"><span><i class="fa fa-paypal"></i>Credit Card</span></label>
+            <label style="color: white;" for="bc2"><span><i class="fa fa-cc-paypal" aria-hidden="true"></i>Credit Card</span></label>
+            </div>
             </div>
 
-
+            <div class="inputgroup">
+                <div class="inputbox">
+                    
+                    <input type="tel" placeholder="Card number"require class="name">
+                    <i class="fa fa-credit-card" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="inputgroup">
+                <div class="inputbox">
+                   
+                    <input type="tel" placeholder="CCV/CVC "require class="name">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                </div>
+            
+                <div class="inputbox">
+                   <select>
+                       <option>01 jun</option>
+                       <option>02 jun</option>
+                       <option>03 jun</option>
+                   </select>
+                   <select>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                </select>
+                </div>
+                </div>
+                <div class="inputgroup">
+                    <div class="inputbox">
+                        
+                        <button type="submit">PAY NOW</button>
+                    </div>
+                </div>
+            
     
 
 
