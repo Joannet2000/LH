@@ -3,28 +3,30 @@
         <title>
             Learners Hub</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="index.css">   
+            <link rel="stylesheet" href="index.css"> 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">  
     </head>
     <body>
     
         <section id="header">
             <div style="font-weight: bold;" class="topNav"  mx-auto px-4 mt-4>
                 <a style="font-family:serif" class="active" href="">Home</a>
-                <a style="font-family:serif" href="">About Us</a>
-                <a style="font-family:serif" href="">Instructors</a>
-                <a style="font-family:serif" href="">Courses</a>
+                <a style="font-family:serif" href="#about">About</a>
+                <a style="font-family:serif" href="#instructors">Instructors</a>
+                <a style="font-family:serif" href="#courses">Courses</a>
 
-                <a style="font-family:serif" href="">Contact Us</a>
-                <a style="font-family:serif" href="">Login</a>
-                <a style="font-family:serif" class="right" href="">Payment</a>
+                <a style="font-family:serif" href="#contact">Contact Us</a>
+                <a style="font-family:serif" href="#login">Login</a>
+                <a style="font-family:serif" class="right" href="#payment">Payment</a>
  
                 
             </div> 
             <div class="container mx-auto px-4 mt-4" >
                 <img src="logo1.png" alt="edtech" class="logo">
                 <div class="img">
-<img src="img.png" alt="image" style="width: 500px; height: 300px;">
-                </div><div class="header-text">
+<img src="img.png" alt="image" style="width: 500px; height: 300px; max-width:100%;">
+                </div>
+                <div class="header-text">
                     <h1 style="color: black; font-family: Georgia, 'Times New Roman', Times, serif;">
                         Learn, Apply and Conquer
                     </h1>
@@ -37,25 +39,124 @@
                     <span class="square2"> 
 
                     </span>
-                    <p style="color:whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif">
+                    <p style="color:rgb(136, 120, 120); font-family:Georgia, 'Times New Roman', Times, serif; max-width:100%; font-weight: bold;">
                         Enroll and acquire knowledge through our 1000+ courses including capstone projects. 
                         <br><button class="common" style="color: rgb(238, 255, 4);">
                             Read more
                         </button>
                         <br>
-                    
-        
+    
                     <div class="line">
                         <span class="line1"></span>
                         <span class="line2"></span>
                         <span class="line3"></span>
                     </div>
+                    
+                    </div>
                 </div>
             </div>
-                
+            <div>
+                <h2 style="display: block; font-family:'Times New Roman', Times, serif;" id=about>ABOUT</h2>
+                <a href="#about"></a>
+                <br>
+         <p1 style="display: inline-block;">
+                As a group of 5, we believe education should mainly include the practical aspects. Our courses include capstone projects and peer-to-peer assignments to help students get hands-on experience.
+            </p1>
+            <img style="width: 1520px; float: center; margin-top: 40px;" src="about.jpg" alt="about">
+            </div>
+            
         </section>
+
+            <div class="instruct"></div>
+            <h3 id=instructors style="font-weight: bold;">INSTRUCTORS</h3>
+            <a href="#instructors"></a>
+            <img src="instructors.png" style="width: 1000px; float:center; margin-top: 40px; margin-left: 250px;">
+           <div class=courses>
+<h4 id=courses>COURSES</h4>
+<a href="#courses"></a>
+<p3 style="text-align: center; margin-left: 300px; color: white; font-size: 32; margin-top: 30px;">Learners Hub provides a wide range of courses in different fields of study.</p3>
            
-    
+<div style="font-weight: bold;" class="sideNav"  mx-auto px-4 mt-4>
+    <a style="font-family:serif" class="active" href="">Development</a>
+    <a style="font-family:serif" href="#about">Business</a>
+    <a style="font-family:serif" href="#instructors">Finance and Accounting</a>
+    <a style="font-family:serif" href="#courses">IT & Software</a>
+    <a style="font-family:serif" href="#courses">Personal Development</a>
+    <a style="font-family:serif" href="#login">Marketing</a>
+    <a style="font-family:serif" class="right" href="#payment">Design </a>
+
+   </div> 
+ </div>
+ <div class=contact>
+    <h5 id=contact>CONTACT US</h5>
+    <a href="#contact"></a>
+    <ul>
+        <li><a style="margin-top: 4500px;" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a style="margin-top: 4500px;"href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a style="margin-top: 4500px; "href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a></li>
+        <li><a style="margin-top: 4500px; "href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+    </ul>
+    </div>
+<div class="login">
+<h6 id=login>LOGIN</h6>
+
+<div class="textbox">
+    <i class="fa fa-user-circle" aria-hidden="true"></i>
+    <input type="text" placeholder="Username" name="" value="">
+</div>
+<div class="textbox">
+    <i class="fa fa-lock" aria-hidden="true"></i>
+    <input type="password" placeholder="Password" name="" value="">
+</div>
+<input class="btn" type="button" name="" value="Sign In">
+</div>  
+
+<div class="payment" style="margin-top: 600px; text-align: center;"  >
+<h7 style="color: WHITE;" id="payment">Payment</h7>
+<br>
+<a href="#payment"></a>
+<form method="POST">
+    <h8>Account</h8>
+    <div class="inputgroup">
+        <div class="inputbox">
+            <input type="text" placeholder="Full Name required" class="name">
+            <i class="fa fa-user icon"></i>
+        </div>
+        <div class="inputbox">
+            <input type="text" placeholder="Nick Name required" class="name">
+            <i class="fa fa-user icon"></i>
+        </div>
+    </div>
+    <div class="inputgroup">
+        <div class="inputbox">
+            <input type="text" placeholder="Email Address" class="name">
+            <i class="fa fa-envelope"></i>
+        </div>
+    </div>
+    <div class="inputgroup">
+        <div class="inputbox">
+            <input type="text" placeholder="DD" class="dob">
+            <input type="text" placeholder="MM" class="dob">
+            <input type="text" placeholder="YYYY" class="dob">
+        </div>
+        <div class="inputbox">
+            <h9>Gender</h9>
+            <input type="radio" id="b1" name="gender" checked class="radio">
+            <label for="b1">Male</label>
+            <input type="radio" id="b2" name="gender" checked class="radio">
+            <label for="b2">Female</label>
+            <i class="fa fa-user icon"></i>
+        </div>
+        <div class="inputgroup">
+            <div class="inputbox">
+                <h10>Payment Details</h10>
+                <input type="radio" id="bc1" name="pay" checked class="radio">
+            <label for="bc1"><span><i class="fa fa-visa"></i>Credit Card</span></label>
+            <input type="radio" id="bc2" name="pay" checked class="radio">
+            <label for="bc2"><span><i class="fa fa-paypal"></i>Credit Card</span></label>
+            </div>
+
+
     
 
 
